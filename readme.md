@@ -15,7 +15,7 @@
  - positioning sidebar
  - margin
  - sizing
- - hiding navigation without adding css
+ - hiding navigation on mobile without adding css
  
  
  

@@ -13,6 +13,9 @@
  
  ### Difficulties:
  - positioning sidebar
+ - margin
+ - sizing
+ - hiding navigation without extra css
  
  
  

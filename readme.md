@@ -7,7 +7,7 @@
  ## Review
  ### Positive features:
  - easy to read documentation
- - costum build possible
+ - costum build
  - some big companies use it
 ![alt-text](https://scotch-res.cloudinary.com/image/upload/dpr_1,w_800,q_auto:good,f_auto/v1545689494/hl3b8wktpf1y8fiikst6.png)
  

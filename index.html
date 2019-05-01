@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>framework-FTW</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+      <style>
+        body {
+          background: rgb(222, 231, 231);
+          display: grid;
+          grid-template-columns: 7% 90% 0%;
+          grid-auto-rows: auto;
+          grid-template-areas:
+            "nav content content";
+        }
+
+        .icon-bar {
+          grid-area: nav;
+        }
+
+        .content {
+          grid-area: content;
+        }
+
+        .panel:hover {
+          background: #fff;
+          box-shadow: 0 0 30px 2px gray;
+        }
+
+        @media only screen and (max-width: 1024px) {
+          .icon-bar{display:none;}
+
+          body{
+            grid-template-areas: "content content content";
+          }
+        }  
+      </style>
+
+          <!-- Navigation -->
+          
+              <div class="icon-bar large-vertical five-up" role="navigation">  
+                <a class="item" role="button">
+                  <img src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-8/256/Home-icon.png" >
+                  <label>Home</label>
+                </a>
+                <a class="item" role="button">
+                  <img src="https://www.freeiconspng.com/uploads/book-bookmark-icon-5.png">
+                  <label>Bookmark</label>
+                </a>
+                <a class="item" role="button">
+                  <img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-info-icon.png" >
+                  <label>Info</label>
+                </a>
+                <a class="item" role="button">
+                  <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-f52fe3a323539563e59a6ea6cadbc196.png" >
+                  <label>Mail</label>
+                </a>
+                <a class="item" role="button">
+                  <img src="https://i0.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Like-Icon.png?resize=300%2C289" >
+                  <label>Like</label>
+                </a>
+              </div>
+
+              <div class='content'>
+                <!-- Row 1 -->
+                <div class="row text-center">
+                  <div class="large-3 columns">
+                    <div class="panel">
+                        <img src="http://erovas.com/wp-content/uploads/2016/07/bank-icon.png">
+                        <h3>Your EMP Back OfficeTour</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt consequat suscipit.
+                        </p>
+                        <hr>
+                        <a href="#" class="button round">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="large-3 columns">
+                    <div class="panel">
+                        <img src="https://www.stoswaldsuk.org/media/22634/wrench-icon_200x200.jpg">
+                        <h3>Tools</h3>
+                        <p>
+                            Aliquam non lacinia libero. Morbi bibendum venenatis enim sit amet volutpat. Sed 
+                            a molestie risus. Sed scelerisque suscipit bibendum.
+                        </p>
+                        <hr>
+                        <a href="#" class="button round">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="large-3 columns">
+                    <div class="panel">
+                        <img src="http://icons.iconarchive.com/icons/webalys/kameleon.pics/256/Clipboard-Plan-icon.png">
+                        <h3>Plan</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt consequat suscipit.
+                        </p>
+                        <hr>
+                        <a href="#" class="button round">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="large-3 columns">
+                    <div class="panel">
+                        <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-3b059644cef1d0d58c250a23f9287dce-cash.png">
+                        <h3>EMP Coaching</h3>
+                        <p>
+                            Aliquam non lacinia libero. Morbi bibendum venenatis enim sit amet volutpat. Sed 
+                            a molestie risus. Sed scelerisque suscipit bibendum.
+                        </p>
+                        <hr>
+                        <a href="#" class="button round">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Row 2 -->
+                <div class="row text-center">
+                  <div class="large-3 columns">
+                    <div class="panel ">
+                        <img src="https://images.vexels.com/media/users/3/153954/isolated/lists/8b73eeb1c7543888ee9e3bdbf3d81f65-time-is-money-icon.png">
+                        <h3>Make Money</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt consequat suscipit.
+                        </p>
+                        <hr>
+                        <a href="#" class="button round">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="large-3 columns">
+                    <div class="panel">
+                        <img src="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Help-and-Support-icon.png">
+                        <h3>Help & Support</h3>
+                        <p>
+                            Aliquam non lacinia libero. Morbi bibendum venenatis enim sit amet volutpat. Sed 
+                            a molestie risus. Sed scelerisque suscipit bibendum.
+                        </p>
+                        <hr>
+                        <a href="#" class="button round">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="large-3 columns">
+                    <div class="panel">
+                        <img src="https://www.crystal.ie/templates/crystal_c2/images/designer/1210098_bd_media_id_76f0bbbdb30ff843c6e8b37ca148c7b6.png">
+                        <h3>Getting started</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt consequat suscipit.
+                        </p>
+                        <hr>
+                        <a href="#" class="button round">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="large-3 columns">
+                    <div class="panel">
+                        <img src="http://icons.iconarchive.com/icons/webalys/kameleon.pics/256/Paper-Plane-icon.png">
+                        <h3>Your first sale</h3>
+                        <p>
+                            Aliquam non lacinia libero. Morbi bibendum venenatis enim sit amet volutpat. Sed 
+                            a molestie risus. Sed scelerisque suscipit bibendum.
+                        </p>
+                        <hr>
+                        <a href="#" class="button round">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      
+
+
+        
+          
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

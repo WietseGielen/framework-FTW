@@ -15,7 +15,7 @@
  - positioning sidebar
  - margin
  - sizing
- - hiding navigation without extra css
+ - hiding navigation without adding css
  
  
  

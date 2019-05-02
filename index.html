@@ -12,10 +12,11 @@
         body {
           background: rgb(222, 231, 231);
           display: grid;
-          grid-template-columns: 7% 90% 0%;
+          grid-template-columns: 7% 93%;
           grid-auto-rows: auto;
           grid-template-areas:
-            "nav content content";
+            "nav content";
+          overflow: hidden;
         }
 
         .icon-bar {
@@ -32,38 +33,39 @@
         }
 
         @media only screen and (max-width: 1024px) {
-          .icon-bar{display:none;}
-
           body{
-            grid-template-areas: "content content content";
+            grid-template-areas: "content content";
+            overflow: visible;
           }
         }  
       </style>
 
           <!-- Navigation -->
           
-              <div class="icon-bar large-vertical five-up" role="navigation">  
-                <a class="item" role="button">
-                  <img src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-8/256/Home-icon.png" >
-                  <label>Home</label>
-                </a>
-                <a class="item" role="button">
-                  <img src="https://www.freeiconspng.com/uploads/book-bookmark-icon-5.png">
-                  <label>Bookmark</label>
-                </a>
-                <a class="item" role="button">
-                  <img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-info-icon.png" >
-                  <label>Info</label>
-                </a>
-                <a class="item" role="button">
-                  <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-f52fe3a323539563e59a6ea6cadbc196.png" >
-                  <label>Mail</label>
-                </a>
-                <a class="item" role="button">
-                  <img src="https://i0.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Like-Icon.png?resize=300%2C289" >
-                  <label>Like</label>
-                </a>
-              </div>
+              <p class="hide-for-small-only">
+                <div class="icon-bar vertical five-up" role="navigation">  
+                  <a class="item" role="button">
+                    <img src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-8/256/Home-icon.png" >
+                    <label>Home</label>
+                  </a>
+                  <a class="item" role="button">
+                    <img src="https://www.freeiconspng.com/uploads/book-bookmark-icon-5.png">
+                    <label>Bookmark</label>
+                  </a>
+                  <a class="item" role="button">
+                    <img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-info-icon.png" >
+                    <label>Info</label>
+                  </a>
+                  <a class="item" role="button">
+                    <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-f52fe3a323539563e59a6ea6cadbc196.png" >
+                    <label>Mail</label>
+                  </a>
+                  <a class="item" role="button">
+                    <img src="https://i0.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Like-Icon.png?resize=300%2C289" >
+                    <label>Like</label>
+                  </a>
+                </div>
+              </p>
 
               <div class='content'>
                 <!-- Row 1 -->
